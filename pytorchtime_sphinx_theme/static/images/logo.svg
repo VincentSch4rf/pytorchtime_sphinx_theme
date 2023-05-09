@@ -9,7 +9,7 @@
    viewBox="0.6 539.9 730.40005 120.2"
    enable-background="new 0.6 539.9 487.3 120.2"
    xml:space="preserve"
-   sodipodi:docname="logo-dark.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
    width="730.40002"
    height="120.2"
@@ -31,7 +31,7 @@
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
    inkscape:zoom="4"
-   inkscape:cx="263.5"
+   inkscape:cx="343.5"
    inkscape:cy="-17.875"
    inkscape:window-width="3768"
    inkscape:window-height="2096"
@@ -41,7 +41,7 @@
    inkscape:current-layer="Layer_1" />
 <text
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.535px;font-family:FreightSans-Light;-inkscape-font-specification:FreightSans-Light;text-align:center;text-anchor:middle;fill:#262626;stroke:none;stroke-width:0.105895;stroke-linecap:square;stroke-linejoin:round"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.535px;font-family:FreightSans-Light;-inkscape-font-specification:FreightSans-Light;text-align:center;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:0.105895;stroke-linecap:square;stroke-linejoin:round;fill-opacity:1"
    x="161.552"
    y="628.78601"
    id="text417"><tspan
@@ -49,7 +49,7 @@
      id="tspan415"
      x="161.552"
      y="628.78601"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.535px;font-family:FreightSans-Book;-inkscape-font-specification:FreightSans-Book;stroke-width:0.105895;stroke:none">Py</tspan></text>
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.535px;font-family:FreightSans-Book;-inkscape-font-specification:FreightSans-Book;stroke-width:0.105895;stroke:none;fill:#ffffff;fill-opacity:1">Py</tspan></text>
 
 <path
    id="path14578"
@@ -57,7 +57,7 @@
    style="fill:#ee4c2c;fill-opacity:1" /><path
    id="path14572"
    d="m 16.63125,562.03477 -5.273437,5.27343 c -14.3999719,14.39998 -14.3999719,37.60004 0,52 4.216768,4.21677 9.190388,7.18839 14.466797,8.93555 v -9.83398 c -2.969079,-1.33982 -5.746184,-3.23569 -8.166016,-5.70118 C 7.212529,602.26253 6.8698174,585.64202 16.63125,574.97227 Z"
-   style="fill:#262626;fill-opacity:1" /><path
+   style="fill:#ffffff;fill-opacity:1;stroke:none" /><path
    style="fill:#ee4c2c;fill-opacity:1;stroke-width:0.200559;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:0.200559, 0.401118"
    d="m 29.524984,594.0226 6.287862,-6.41826 6.456292,6.39923 -6.639866,6.60011 z"
    id="path738" /><g
@@ -76,25 +76,25 @@
      d="m 36.898981,607.73284 h 2.626837 l -2.3e-5,26.34688 -2.626813,3.6086 z"
      sodipodi:nodetypes="ccccc" /><path
      id="rect10738-93-6-0"
-     style="fill:#262626;fill-opacity:1;stroke-width:2.25084;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.25084, 4.50169"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.25084;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.25084, 4.50169"
      d="m 40.912159,633.15739 2.626837,-3.42591 -2.3e-5,-13.70709 -2.626813,-3.6086 z"
      sodipodi:nodetypes="ccccc" /></g><path
    id="rect10738-9-1-4"
-   style="fill:#262626;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
+   style="fill:#ffffff;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817;stroke:none"
    d="m 41.287278,590.45654 -1.865752,-1.84912 11.107386,-11.20728 1.86292,1.85195 z"
    sodipodi:nodetypes="ccccc" /><path
    id="rect10738-9-1-4-2"
-   style="fill:#262626;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
+   style="fill:#ffffff;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817;stroke:none"
    d="m 39.422531,599.70638 1.84912,-1.86575 11.20728,11.10738 -1.85195,1.86292 z"
    sodipodi:nodetypes="ccccc" /><g
    id="g6811"
    style="display:none"><path
      id="rect10738-9"
-     style="display:inline;fill:#262626;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
+     style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
      d="m 22.073561,582.75186 h -2.626836 l 2.3e-5,-23.52527 2.626813,-2.64951 z"
      sodipodi:nodetypes="ccccc" /><path
      id="rect10738-9-1"
-     style="display:inline;fill:#262626;fill-opacity:1;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
+     style="display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.11908;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:2.11908, 4.23817"
      d="M 26.096216,578.24264 H 23.46938 l 2.3e-5,-23.05335 2.626813,-2.61675 z"
      sodipodi:nodetypes="ccccc" /><path
      id="rect10738-9-1-2"
@@ -111,7 +111,7 @@
    r="4.8000002"
    id="circle13384-1" /><text
    xml:space="preserve"
-   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.335px;font-family:FreightSans-Black;-inkscape-font-specification:FreightSans-Black;text-align:center;letter-spacing:-1.98456px;text-anchor:middle;fill:#262626;stroke:none;stroke-width:0.108159;stroke-linecap:square;stroke-linejoin:round"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.335px;font-family:FreightSans-Black;-inkscape-font-specification:FreightSans-Black;text-align:center;letter-spacing:-1.98456px;text-anchor:middle;fill:#ffffff;stroke:none;stroke-width:0.108159;stroke-linecap:square;stroke-linejoin:round;fill-opacity:1"
    x="353.46503"
    y="628.0473"
    id="text418"><tspan
@@ -119,7 +119,7 @@
      id="tspan416"
      x="352.47275"
      y="628.0473"
-     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.335px;font-family:FreightSans-Book;-inkscape-font-specification:FreightSans-Book;stroke-width:0.108159;stroke:none"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:128.335px;font-family:FreightSans-Book;-inkscape-font-specification:FreightSans-Book;stroke-width:0.108159;stroke:none;fill:#ffffff;fill-opacity:1"
      dx="0">Torch</tspan></text><text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:129.333px;font-family:FreightSans-Book;-inkscape-font-specification:FreightSans-Book;text-align:center;letter-spacing:-1.98px;text-anchor:middle;fill:#ee4c2c;stroke:none;stroke-width:0.109;stroke-linecap:square;stroke-linejoin:round;fill-opacity:1"

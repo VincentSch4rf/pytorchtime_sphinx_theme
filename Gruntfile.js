@@ -40,7 +40,7 @@ module.exports = function(grunt) {
               expand: true,
               flatten: true,
               src: ['fonts/FreightSans/*'],
-              dest: 'pytorch_sphinx_theme/static/fonts/FreightSans',
+              dest: 'pytorchtime_sphinx_theme/static/fonts/FreightSans',
               filter: 'isFile'
           },
 
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
               expand: true,
               flatten: true,
               src: ['fonts/IBMPlexMono/*'],
-              dest: 'pytorch_sphinx_theme/static/fonts/IBMPlexMono',
+              dest: 'pytorchtime_sphinx_theme/static/fonts/IBMPlexMono',
               filter: 'isFile'
           }
         ]
@@ -60,7 +60,7 @@ module.exports = function(grunt) {
               expand: true,
               flatten: true,
               src: ['images/*'],
-              dest: 'pytorch_sphinx_theme/static/images',
+              dest: 'pytorchtime_sphinx_theme/static/images',
               filter: 'isFile'
           }
         ]
@@ -76,7 +76,7 @@ module.exports = function(grunt) {
               'node_modules/bootstrap/dist/js/bootstrap.min.js',
               'node_modules/anchor-js/anchor.min.js'
             ],
-            dest: 'pytorch_sphinx_theme/static/js/vendor',
+            dest: 'pytorchtime_sphinx_theme/static/js/vendor',
             filter: 'isFile'
           }
         ]
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
           }
         },
         src: ['js/*.js'],
-        dest: 'pytorch_sphinx_theme/static/js/theme.js'
+        dest: 'pytorchtime_sphinx_theme/static/js/theme.js'
       },
       build: {
         options: {
@@ -102,7 +102,7 @@ module.exports = function(grunt) {
           }
         },
         src: ['js/*.js'],
-        dest: 'pytorch_sphinx_theme/static/js/theme.js'
+        dest: 'pytorchtime_sphinx_theme/static/js/theme.js'
       }
     },
     uglify: {
@@ -116,8 +116,8 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          src: ['pytorch_sphinx_theme/static/js/*.js', '!pytorch_sphinx_theme/static/js/*.min.js'],
-          dest: 'pytorch_sphinx_theme/static/js/',
+          src: ['pytorchtime_sphinx_theme/static/js/*.js', '!pytorchtime_sphinx_theme/static/js/*.min.js'],
+          dest: 'pytorchtime_sphinx_theme/static/js/',
           rename: function (dst, src) {
             // Use unminified file name for minified file
             return src;
@@ -132,15 +132,15 @@ module.exports = function(grunt) {
     },
     clean: {
       build: ["docs/build"],
-      fonts: ["pytorch_sphinx_theme/static/fonts"],
-      images: ["pytorch_sphinx_theme/static/images"],
-      js: ["pytorch_sphinx_theme/static/js/*", "!pytorch_sphinx_theme/static/js/modernizr.min.js"]
+      fonts: ["pytorchtime_sphinx_theme/static/fonts"],
+      images: ["pytorchtime_sphinx_theme/static/images"],
+      js: ["pytorchtime_sphinx_theme/static/js/*", "!pytorchtime_sphinx_theme/static/js/modernizr.min.js"]
     },
 
     watch: {
       /* Changes in theme dir rebuild sphinx */
       sphinx: {
-        files: ['pytorch_sphinx_theme/**/*', 'README.rst', 'docs/**/*.rst', 'docs/**/*.py'],
+        files: ['pytorchtime_sphinx_theme/**/*', 'README.rst', 'docs/**/*.rst', 'docs/**/*.py'],
         tasks: ['clean:build','exec:build_sphinx']
       },
       /* JavaScript */
