@@ -76,18 +76,15 @@
   {%- endblock %}
 
   {%- block extrahead %}
-  <!-- Google Analytics -->
+  <!-- Google Tag Manager -->
   {% if theme_analytics_id %}
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ theme_analytics_id }}"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', '{{ theme_analytics_id }}');
-    </script>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','{{ theme_analytics_id }}');</script>
   {% endif %}
-  <!-- End Google Analytics -->
+    <!-- End Google Tag Manager -->
   {% endblock %}
 
   {# Keep modernizr in head - http://modernizr.com/docs/#installing #}
@@ -222,6 +219,12 @@
         {% endif %}
 
         {%- block content %}
+          {% if theme_analytics_id %}
+          <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ theme_analytics_id }}"
+          height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+          <!-- End Google Tag Manager (noscript) -->
+          {% endif %}
           {% if theme_style_external_links|tobool %}
           <div class="rst-content style-external-links">
           {% else %}
@@ -294,6 +297,7 @@
   </script>
 
   {%- block footer %} {% endblock %}
+  {% include "cookie_banner.html" %}
 
   <!-- Begin Mobile Menu -->
 
